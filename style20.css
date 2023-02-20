@@ -1,0 +1,194 @@
+body{
+margin: 0 auto;
+font-family: "Roboto", sans-serif;
+background-color: #fff;  
+}
+
+.header {
+width: 100%;
+height: 84px;
+background-color:#007765 ;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 10;
+}
+.container{
+width: 1920px;
+margin: 0 auto;
+padding: 0 55px 0 55px;
+}
+.header__piedpiper{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+text-align: center; 
+padding-top: 10px; 
+}
+.img{
+max-width: 100%;
+}
+.header__nav{
+padding: 28px;
+}  
+.nav__link, .header__nav span {
+margin-left: 10px;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color:#fff;
+line-height: 28px;
+text-decoration: none;
+}
+
+.banner{
+min-height: 403px;
+display: flex;
+align-items: center;
+justify-content: center; 
+width: 1920px; 
+position: relative; 
+}
+.problem__title{
+font-style: normal; 
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+
+}
+.problem__text p{     
+text-align: center;     
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px; 
+padding-left: 55px;
+padding-right: 55px;
+color: #000000; 
+}  
+.container {
+box-sizing: border-box;
+width: 1920px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 55px;
+padding-right: 55px;
+}
+.hero { 
+padding-top: 128px;
+padding-bottom: 128px; 
+background-image: url('https://i.ibb.co/PM6cMBn/image.png'); 
+background-size: cover;
+background-position: center center; 
+} 
+.hero__message {
+font-family: Roboto, sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center; 
+justify-content: center; 
+padding-left: 55px;
+padding-right: 55px;
+color: #fff;
+}
+.PiedPiperCoin{  
+background-color: #fff;
+
+}
+.PiedPiperCoin__title{
+margin: 50px 0 16px 0; 
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
+.PiedPiperCoin__logo{     
+float: left;
+width: 120px;
+height: 115px;
+margin: 0 48px 35px 0; 
+
+}
+.PiedPiperCoin__text p{        
+padding-left: 55px; 
+padding-right: 55px;  
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+.team{
+min-height: 845px;
+background-color: #EEEEEE;
+}
+.team__header{
+margin: 0;
+padding: 58px 0 32px 0;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
+.team__inner{
+display: flex;
+flex-wrap: wrap;
+}
+.team__item{
+width: 33.33333%;
+height: 283px;
+margin-bottom: 30px;
+text-align: center;
+}
+.team__photo{
+margin: 21px 0 12px 0;
+}
+.team__name{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #007765;
+}
+.team__prof{
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+/* FOOTER */
+footer{
+display: flex;
+justify-content: center;
+min-height: 176px;
+background: #333333;
+}
+.footer__text{
+width: 540px;
+padding: 50px 0 0 0 ;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+/*anchor */
+#problem,
+#PiedPiperCoin,
+#theTeam {
+border-top: 84px solid transparent;
+margin-top: -84px;
+background-clip: padding-box;
+} 
